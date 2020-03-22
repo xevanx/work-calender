@@ -14,9 +14,10 @@ $(document).ready(function() {
   $("#7th-hour .description").val(localStorage.getItem("7th-hour"));
   $("#8th-hour .description").val(localStorage.getItem("8th-hour"));
   $("#9th-hour .description").val(localStorage.getItem("9th-hour"));
-  $("#10st-hour .description").val(localStorage.getItem("10th-hour"));
-  $("#12nd-hour .description").val(localStorage.getItem("11th-hour"));
-  $("#13rd-hour .description").val(localStorage.getItem("12th-hour"));
+  $("#10th-hour .description").val(localStorage.getItem("10th-hour"));
+  $("#11th-hour .description").val(localStorage.getItem("11th-hour"));
+  $("#12th-hour .description").val(localStorage.getItem("12th-hour"));
+  $("#13th-hour .description").val(localStorage.getItem("13th-hour"));
 
   function hourUpdater() {
     var currentHour = moment().hours();
